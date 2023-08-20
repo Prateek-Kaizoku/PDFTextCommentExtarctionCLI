@@ -27,7 +27,7 @@ Make sure you have completed the installation steps mentioned above.
 Run the script using Node.js with the following command:
 plaintext
 
-```
+```js
 node extract_pdf_annotations.js <path_to_pdf> <output_txt_file>
 
 ```
@@ -37,7 +37,7 @@ For example:
 plaintext
 Copy code
 
-```
+```js
 node extract_pdf_annotations.js input.pdf output_annotations.txt
 ```
 
@@ -52,7 +52,7 @@ Run the script using Node.js with the following command:
 plaintext
 Copy code
 
-```
+```js
 
 node embed_annotations.js <pdf_path> <annotations_txt_path> <output_pdf_path>
 ```
@@ -62,7 +62,7 @@ For example:
 plaintext
 Copy code
 
-```
+```js
 node embed_annotations.js input.pdf annotations.txt output_annotated.pdf
 
 ```
