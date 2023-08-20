@@ -30,6 +30,10 @@ async function embedAnnotations(pdfPath, annotationsTextPath, outputPath) {
     const y = parseFloat(yStr);
     const text = textParts.join(" ");
 
+    const textWithPageNumber = `Page ${
+      pageNumber + 1
+    } at (${x}, ${y}): ${textParts.join(" ")}`;
+
     const page = pdfDoc.getPages()[pageNumber];
     if (!page) {
       console.log("No page found for line:", ann);
@@ -37,7 +41,7 @@ async function embedAnnotations(pdfPath, annotationsTextPath, outputPath) {
     }
 
     console.log("Processing page number:", pageNumber + 1);
-    page.drawText(text, { x, y });
+    page.drawText(textWithPageNumber, { x, y, size: 12 });
   }
 
   const modifiedPdfBytes = await pdfDoc.save();
