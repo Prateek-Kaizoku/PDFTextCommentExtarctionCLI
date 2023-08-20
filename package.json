@@ -1,6 +1,6 @@
 {
   "name": "insgen",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "",
   "main": "extract_pdf_annotations.js",
   "scripts": {
@@ -15,5 +15,8 @@
     "pdfjs-dist": "^3.9.179",
     "yargs": "^17.7.2"
   },
-  "repository": { "type": "git", "url": "https://github.com/Prateek-Kaizoku/PDFTextCommentExtarctionCLI.git" }
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Prateek-Kaizoku/PDFTextCommentExtarctionCLI.git"
+  }
 }
