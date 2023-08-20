@@ -26,17 +26,21 @@ To extract annotations from a PDF file and save them to a text file, follow thes
 Make sure you have completed the installation steps mentioned above.
 Run the script using Node.js with the following command:
 plaintext
-'''
+
+```
 node extract_pdf_annotations.js <path_to_pdf> <output_txt_file>
 
-'''
+```
+
 Replace <path_to_pdf> with the path to the PDF file you want to extract annotations from, and <output_txt_file> with the desired path for the output text file.
 For example:
 plaintext
 Copy code
-'''
+
+```
 node extract_pdf_annotations.js input.pdf output_annotations.txt
-'''
+```
+
 The annotations will be extracted and saved to the specified output text file. You will see a confirmation message once the process is complete.
 Script 2: PDF Annotations Embedder
 
@@ -47,18 +51,22 @@ Make sure you have completed the installation steps mentioned above.
 Run the script using Node.js with the following command:
 plaintext
 Copy code
-'''
+
+```
 
 node embed_annotations.js <pdf_path> <annotations_txt_path> <output_pdf_path>
-'''
+```
+
 Replace <pdf_path> with the path to the PDF file you want to embed annotations into, <annotations_txt_path> with the path to the annotations text file, and <output_pdf_path> with the desired path for the output PDF file.
 For example:
 plaintext
 Copy code
-'''
+
+```
 node embed_annotations.js input.pdf annotations.txt output_annotated.pdf
 
-'''
+```
+
 The script will process each line in the annotations text file, where each line specifies the page number, x-coordinate, y-coordinate, and annotation text. Annotations will be embedded into the specified PDF file at the specified coordinates on the respective pages.
 The modified PDF with embedded annotations will be saved as the output PDF file. You will see a confirmation message once the process is complete.
 Notes
