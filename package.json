@@ -1,5 +1,5 @@
 {
-  "name": "insgen",
+  "name": "PDF-comment-gen",
   "version": "1.0.7",
   "description": "",
   "main": "extract_pdf_annotations.js",
