@@ -6,7 +6,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+     "PDF",
+     "Annotations",
+     " Node.js",
+     "pdf-lib",
+     "yargs",
+     "Text processing",
+     "PDF editing]",
+     "Acrobat-Reader"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
