@@ -1,6 +1,6 @@
 {
   "name": "insgen",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "",
   "main": "extract_pdf_annotations.js",
   "scripts": {
