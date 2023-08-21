@@ -72,3 +72,14 @@ The modified PDF with embedded annotations will be saved as the output PDF file.
 Notes
 
 Both scripts are provided as-is under the ISC License. Feel free to use, modify, and distribute them as needed.
+
+## Keywords
+
+- PDF
+- Annotations
+- Node.js
+- pdf-lib
+- yargs
+- Text processing
+- PDF editing
+- Acrobat reader
