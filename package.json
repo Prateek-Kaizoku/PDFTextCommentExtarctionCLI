@@ -1,20 +1,20 @@
 {
   "name": "insgen",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "",
   "main": "extract_pdf_annotations.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-     "PDF",
-     "Annotations",
-     " Node.js",
-     "pdf-lib",
-     "yargs",
-     "Text processing",
-     "PDF editing]",
-     "Acrobat-Reader"
+    "PDF",
+    "Annotations",
+    " Node.js",
+    "pdf-lib",
+    "yargs",
+    "Text processing",
+    "PDF editing]",
+    "Acrobat-Reader"
   ],
   "author": "",
   "license": "ISC",
